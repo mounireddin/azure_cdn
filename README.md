@@ -26,7 +26,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_environment"></a> [environment](#input\_environment) | (Required) Specifies the Environment value (prod, qa, dev). | `string` | n/a | yes |
-| <a name="input_is_http_allowed"></a> [is\_http\_allowed](#input\_is\_http\_allowed) | value | `string` | n/a | yes |
+| <a name="input_is_http_allowed"></a> [is\_http\_allowed](#input\_is\_http\_allowed) | value | `string` | `true` | no |
 | <a name="input_location"></a> [location](#input\_location) | (Required) The location of the Resource Group. | `string` | n/a | yes |
 | <a name="input_location_abbreviation"></a> [location\_abbreviation](#input\_location\_abbreviation) | (Required) The abbreviation of the location used in the Resource Group name. | `string` | n/a | yes |
 | <a name="input_origin_host_name"></a> [origin\_host\_name](#input\_origin\_host\_name) | value | `string` | n/a | yes |

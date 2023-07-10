@@ -40,4 +40,5 @@ variable "origin_host_name" {
 variable "is_http_allowed" {
   type        = string
   description = "value"
+  default = true
 }
